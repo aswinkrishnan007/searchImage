@@ -4,7 +4,7 @@ on:
       - v*
 jobs: 
   build-and-test: 
-    runs-on: windows-2022
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1 
     # The flutter action needs java so include it
